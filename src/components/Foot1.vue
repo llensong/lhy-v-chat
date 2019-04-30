@@ -43,9 +43,9 @@
 				</div>
 				<div class="blame_txt">
 					<p>
-						<span>京公网安备&nbsp;&nbsp;11010502021269</span>
-						<span> 京ICP备12038660号</span>
-						<span>广播电视节目制作经营许可证</span>
+						<span>塔里木大学</span>&nbsp;&nbsp;11010502021269</span>
+						<span> 个人设计:李海英</span>
+						<span>2019届通信工程毕业设计</span>
 						<span>（京）字第01729号</span>
 					</p>
 					<p>Copyright © 2011-2019 CTV Golden Bridge</p>
@@ -69,8 +69,7 @@ export default {
         border: none;
     }
 	.foot1{
-		widows: 100%;
-		height: 150px;
+		width: 100%;
 	}
 	.footImg{
 	    width: 65px;

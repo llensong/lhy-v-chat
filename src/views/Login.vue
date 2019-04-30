@@ -74,7 +74,7 @@ import Head1 from '../components/Head1.vue'
     }
    
     .iform{
-        width: 70%;
+        width: 50%;
         height: 100%;
         margin: auto;
         background-color: azure;

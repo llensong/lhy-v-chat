@@ -44,7 +44,7 @@
                            <div class="lbt3 today">
                                 <Carousel autoplay v-model="value3" loop>
                                     <CarouselItem v-for="item in listArr">
-                                        <div class="demo-carousel"><img style="width:600px;height:330px" :src="item" alt=""></div>
+                                        <div class="demo-carousel"><img style="width:550px;height:310px" :src="item" alt=""></div>
                                     </CarouselItem>
                                 </Carousel>
                             </div>
@@ -54,12 +54,14 @@
                                 </div>
                                 <hr>
                                 <div class='todayContent'>
-                                    <ol >
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ol>
+                                    <ul class="titleContnet">
+                                        <li class="titleContnet-item " v-for="item in list2">
+                                            <a href="">
+                                            <i class="focus_num">1</i>
+                                            <span>{{item}}</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +112,14 @@ export default {
                 require("../assets/2019/782.jpg"),
                 // require("../assets/2019/779.jpg"),
                 // require("../assets/2019/779.jpg")
-               ]
+               ],
+                list2:[
+                    "远程医疗平台计划覆盖2277个贫困村",
+                    "社区+旅游：第三代露营地的发展趋势",
+                    "2019年四大粮食作物的价格走势，玉米最值得看好！",
+                    "2019年起这些新规将影响你的生活",
+                    "12月我国部分农产品供需形势分析"
+                ],
             }
         },
 }
@@ -132,7 +141,7 @@ export default {
     padding: 0;
     }
     .mation{
-        width: 90%;
+        width: 75%;
         margin: auto;
         background-color: antiquewhite
     }

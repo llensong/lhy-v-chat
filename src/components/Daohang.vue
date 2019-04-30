@@ -4,13 +4,13 @@
         <!-- <Head1/> -->
         <div id="nav">
             <router-link to="/">首页</router-link> |
-            <router-link to="/plaza">广场</router-link>|
-            <router-link to="/chat">闲聊</router-link>|
             <router-link to="/topsNews">热点</router-link>|
+            <router-link to="/chat">闲聊</router-link>|
+            <router-link to="/plaza">广场</router-link>|
             <router-link to="/information">资讯</router-link>|
             <router-link to="/plant">政策</router-link>|
             <router-link to="/ecommerce">新技术</router-link>|
-            <router-link to="/details">新技术</router-link>|
+            <!-- <router-link to="/details">详情页</router-link>| -->
             <span> 现在是北京时间:{{time}}</span>
             <!-- <button @click='Time()'>11</button> -->
         </div>
@@ -67,8 +67,8 @@ export default {
             // float: left;
             // background-color: rgba(181, 248, 250,0.4);
             &.router-link-exact-active {
-            color: #e3f5ed;
-            font-size: 21px;
+                color: #e3f5ed;
+                font-size: 21px;
 
             }
         }
